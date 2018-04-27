@@ -1,0 +1,19 @@
+{
+  "name": "genode",
+  "version": "0.1.0",
+  "description": "package to do genetic algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greglama/GeNode.git"
+  },
+  "author": "Gregoire Albizzati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greglama/GeNode/issues"
+  },
+  "homepage": "https://github.com/greglama/GeNode#readme"
+}
