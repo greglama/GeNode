@@ -7,9 +7,9 @@
 
 const Genetic = (_population, _reference, _mutationRate) => {
 
-    const reference  = _reference;
+    let reference  = _reference;
     let population = _population;
-    const mutationRate = _mutationRate;
+    let mutationRate = _mutationRate;
 
     const size = population.length;
     let generation = 0;
@@ -33,7 +33,7 @@ const Genetic = (_population, _reference, _mutationRate) => {
     }
 
     const getBestFit = () =>{
-        if(bestFit === null) throw new Error("You have to cycle at least once to get the best Fit")
+        if(bestFit === null) throw new Error("You have to cycle at least once to get the best Fit");
         else return bestFit;
     }
 
