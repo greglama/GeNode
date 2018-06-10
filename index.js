@@ -101,8 +101,8 @@ const Genetic = (_population, _reference, _mutationRate) => {
         const probaPop = getProbaArray();
         const newPopulation = getNewPop(probaPop);
 
-        population = newPopulation;
-        bestFit = getProbaArray()[size-1][0]
+        bestFit = probaPop[size-1][0];
+		population = newPopulation;
         
         generation ++;
     }
