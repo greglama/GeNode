@@ -18,6 +18,7 @@ const Genetic = (_population, _reference, _mutationRate) => {
 
     //getter setter ----------------------------
     const getPopulation = () => population;
+    const setPopulationAt = (indx, individual) => population[indx] = individual;
 
     const getReference = () => reference;
     const setReference = (value) => reference = value;
@@ -109,6 +110,7 @@ const Genetic = (_population, _reference, _mutationRate) => {
 
     return {
         getPopulation:getPopulation,
+        setPopulationAt:setPopulationAt,
         getSizeOfPopulation:getSizeOfPopulation,
         getGeneration:getGeneration,
         getReference:getReference,
